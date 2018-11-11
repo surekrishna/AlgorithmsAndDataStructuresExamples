@@ -13,7 +13,12 @@ public class LinearSerachExampleOne {
 		int[] randomNumbers = new int[] {1,3,6,78,34,87,23,781,356,991,234,12,56,72,521};
 		int x = 234;		
 		int index = getIndexOfNumber(randomNumbers, x);
-		System.out.println("Index of Random Number {} "+index);
+		if(index == -1) {
+			System.out.println("Index of Random Number Not Found {} "+index);
+		}else {
+			System.out.println("Index of Random Number Fount @ {} "+index);	
+		}
+		
 	}
 	
 	/**
