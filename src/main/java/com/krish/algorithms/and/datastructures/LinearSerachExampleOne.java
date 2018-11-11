@@ -16,7 +16,7 @@ public class LinearSerachExampleOne {
 		if(index == -1) {
 			System.out.println("Index of Random Number Not Found {} "+index);
 		}else {
-			System.out.println("Index of Random Number Fount @ {} "+index);	
+			System.out.println("Index of Random Number Found @ {} "+index);	
 		}
 		
 	}
