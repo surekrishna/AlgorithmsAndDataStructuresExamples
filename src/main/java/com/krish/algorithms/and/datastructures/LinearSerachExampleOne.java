@@ -2,7 +2,7 @@ package com.krish.algorithms.and.datastructures;
 
 /**
  * @author Krishna Sure
- * Java code for linearly search x in arr[].  If x  
+ * Java code for linearly search x in randomNumbers[].  If x  
  * is present  then return its  location,  otherwise 
  * return -1 
  */
