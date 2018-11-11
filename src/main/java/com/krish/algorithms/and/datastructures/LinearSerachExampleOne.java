@@ -12,7 +12,7 @@ public class LinearSerachExampleOne {
 		//array of n numbers
 		int[] randomNumbers = new int[] {1,3,6,78,34,87,23,781,356,991,234,12,56,72,521};
 		int x = 234;		
-		int index = getIndexOfNumber(randomNumbers, x);
+		int index = linearSearch(randomNumbers, x);
 		if(index == -1) {
 			System.out.println("Index of Random Number Not Found {} "+index);
 		}else {
@@ -38,7 +38,7 @@ public class LinearSerachExampleOne {
 	 *	step-7 : element not found
 	 *	step-8 : exit
 	 */
-	private static int getIndexOfNumber(int[] randomNumbers, int x) {
+	private static int linearSearch(int[] randomNumbers, int x) {
 		for(int i = 0; i < randomNumbers.length; i ++) {
 			//Returns index if the element is found
 			if(randomNumbers[i] == x) {
