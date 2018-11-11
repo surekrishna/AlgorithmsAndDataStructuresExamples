@@ -1,4 +1,4 @@
-package com.krish.algorithms.and.datastructures.AlgorithmsAndDataStructuresExamples;
+package com.krish.algorithms.and.datastructures.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
