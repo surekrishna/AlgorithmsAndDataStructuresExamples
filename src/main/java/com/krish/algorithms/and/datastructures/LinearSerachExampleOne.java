@@ -16,7 +16,23 @@ public class LinearSerachExampleOne {
 		System.out.println("Index of Random Number {} "+index);
 	}
 	
-	//This method returns the index of x in randomNumbers[]
+	/**
+	 * This method returns the index of x in randomNumbers[]
+	 * @param randomNumbers
+	 * @param x
+	 * @return
+	 * 
+	 *  Algorithm steps 
+	 *  ---------------
+	 *  step-1 : i = 0
+	 *	step-2 : if i < randomNumbers.length, go to step 7
+	 *	step-3 : if randomNumbers[i] != x, go to step 6
+	 *	step-4 : i = i+1
+	 *	step-5 : go to step 2
+	 *	step-6 : element found
+	 *	step-7 : element not found
+	 *	step-8 : exit
+	 */
 	private static int getIndexOfNumber(int[] randomNumbers, int x) {
 		for(int i = 0; i < randomNumbers.length; i ++) {
 			//Returns index if the element is found
