@@ -14,9 +14,9 @@ public class LinearSerachExampleOne {
 		int x = 234;		
 		int index = linearSearch(randomNumbers, x);
 		if(index == -1) {
-			System.out.println("Index of Random Number Not Found {} "+index);
+			System.out.println("Linear Search index of Number Not Found {} "+index);
 		}else {
-			System.out.println("Index of Random Number Found @ {} "+index);	
+			System.out.println("Linear Search index of Number Found @ {} "+index);	
 		}
 		
 	}
