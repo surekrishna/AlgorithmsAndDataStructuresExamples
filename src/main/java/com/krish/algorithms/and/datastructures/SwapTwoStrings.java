@@ -3,7 +3,7 @@ package com.krish.algorithms.and.datastructures;
 import java.util.Scanner;
 
 /**
- * This is created to swap two given strings
+ * This class is created to swap two given strings
  * @author Krishna Sure
  *
  */
