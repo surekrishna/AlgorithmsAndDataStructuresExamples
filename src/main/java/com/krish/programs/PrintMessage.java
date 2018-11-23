@@ -1,4 +1,4 @@
-package com.krish.algorithms.and.datastructures;
+package com.krish.programs;
 
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;

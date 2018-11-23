@@ -1,4 +1,4 @@
-package com.krish.algorithms.and.datastructures;
+package com.krish.programs;
 
 public class RestrictObjectCreationNotMoreThanThreeTimes {
 	public static void main(String[] args) {
