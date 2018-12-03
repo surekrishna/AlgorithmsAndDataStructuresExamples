@@ -13,7 +13,6 @@ public class ArraySorteOrNot {
 		int[] notSortedNumbers = new int[] {7,16,36,43,9,24};
 		System.out.println("Array is Sorted or Not = "+isArraySortedOrNot(sortedNumbers));
 		System.out.println("Array is Sorted or Not = "+isArraySortedOrNot(notSortedNumbers));
-
 	}
 	
 	/**
