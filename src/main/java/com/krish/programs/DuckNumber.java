@@ -19,7 +19,6 @@ public class DuckNumber {
 			System.out.println("Entered number is not a Duck Number = "+input);
 		else	
 			isDuckNumber(input);
-
 	}
 	
 	/**
@@ -29,10 +28,10 @@ public class DuckNumber {
 	private static void isDuckNumber(String number) {
 		int length = number.length();
 		
-		for(int i = 0; i < length; i++) {
+		for(int i = 0; i < length; i++)
 			if(zero == number.charAt(i))
 				System.out.println("Entered number is Duck Number = "+number);
-		}
+		
 	}
-
+		
 }
