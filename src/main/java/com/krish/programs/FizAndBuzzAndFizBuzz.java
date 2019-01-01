@@ -22,7 +22,8 @@ public class FizAndBuzzAndFizBuzz {
 			
 			for (int j = 1; j <= num; j++) {
 				
-				if(j % 3 == 0 && j % 5 == 0)
+				
+				if(j % (3*5) == 0)//if(j%3 == 0 && j%5 == 0)
 					System.out.println("FizzBuzz");
 				else if (j % 3 == 0)
 					System.out.println("Fizz");
