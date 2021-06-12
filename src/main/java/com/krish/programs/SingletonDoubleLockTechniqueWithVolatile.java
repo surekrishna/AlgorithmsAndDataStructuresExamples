@@ -5,7 +5,7 @@ package com.krish.programs;
  * @author Krishna Sure
  *
  */
-public class SingletonDoubleLockTechniqueWithVolatile implements Cloneable{
+public class SingletonDoubleLockTechniqueWithVolatile implements Cloneable, Serializable {
 
 	private volatile static SingletonDoubleLockTechniqueWithVolatile instance;
 	
@@ -35,11 +35,18 @@ public class SingletonDoubleLockTechniqueWithVolatile implements Cloneable{
 	}
 	
 	/**
-	 * returning current object when to try to clone the singleton object
+	 * returning current object when try to clone the singleton object
 	 */
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		return this;//returning cureent object
+	}
+	
+	/**
+	* returning current object when try to serialize and deserialize the singleton oject
+	*/
+	private Object readResolve() throws ObjectStreamException {
+		return this;//returning current object
 	}
 	
 }
